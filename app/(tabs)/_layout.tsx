@@ -6,7 +6,7 @@ const _layout = () => {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#2563eb", // active tab color (blue-600)
+        tabBarActiveTintColor: "#f20000", // active tab color (blue-600)
         tabBarInactiveTintColor: "#9ca3af", // gray-400
         tabBarStyle: {
           backgroundColor: "white",
@@ -14,7 +14,8 @@ const _layout = () => {
           borderTopColor: "#e5e7eb",
           height: 60,
           paddingBottom: 5,
-         
+          // marginBottom: 50,
+          // borderRadius: 100,
         },
       }}
     >
