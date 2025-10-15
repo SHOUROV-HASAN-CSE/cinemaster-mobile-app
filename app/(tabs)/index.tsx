@@ -20,7 +20,7 @@ export default function Index() {
     data: movies,
     loading: moviesLoading,
     error: moviesError,
-  } = useFetch(() => fatchMovies({ query: "" }));
+  } = useFetch(() => fatchMovies({ query: '' }));
 
   return (
     <View className="flex-1 bg-primary">
@@ -31,7 +31,7 @@ export default function Index() {
       >
         <Image
           source={images.cinemaster}
-          className="w-full h-32 mt-20 mb-5 mx-auto"
+          className="w-full h-32 mt-10 mb-5 mx-auto"
           resizeMode="contain"
         />
 
