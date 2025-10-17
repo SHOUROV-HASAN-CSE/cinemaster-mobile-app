@@ -11,7 +11,7 @@ interface Props {
 
 const SearchBar = ({ placeholder, onPress, value, onChangeText }: Props) => {
   return (
-    <View className="flex-row items-center bg-dark-100 px-5 py-2 rounded-full">
+    <View className="flex-row items-center bg-dark-100 px-5 py-1 rounded-full">
       <Ionicons name="search" size={20} color="#f97216" />
       <TextInput
         onPress={onPress}
@@ -19,7 +19,7 @@ const SearchBar = ({ placeholder, onPress, value, onChangeText }: Props) => {
         value={value}
         onChangeText={onChangeText}
         placeholderTextColor="rgba(255,255,255,0.5)"
-        className="ml-3 flex-1 text-xl text-white"
+        className="ml-2 flex-1 text-lg text-white"
       />
     </View>
   );

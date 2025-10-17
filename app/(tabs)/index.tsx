@@ -74,7 +74,7 @@ export default function Index() {
         {/* Banner */}
         <Image
           source={images.cinemaster}
-          className="w-full h-32 mt-5 mb-5 mx-auto"
+          className="w-full h-32 mt-10 mb-5 mx-auto"
           resizeMode="contain"
         />
 

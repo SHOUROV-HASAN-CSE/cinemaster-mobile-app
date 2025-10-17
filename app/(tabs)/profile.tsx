@@ -15,7 +15,7 @@ const profile = () => {
           shadowRadius: 6,
           elevation: 6,
         }}
-        className="bg-gray-200 p-6 rounded-3xl w-[26rem] h-[46rem] "
+        className="bg-gray-200 p-6 rounded-3xl w-[23rem] h-[42rem] "
       >
         {/* Profile Image */}
         <View
@@ -26,13 +26,13 @@ const profile = () => {
             shadowRadius: 6,
             elevation: 6,
           }}
-          className="rounded-full bg-[#fb730b] w-[150px] h-[150px] mx-auto -mt-24 items-center justify-center"
+          className="rounded-full bg-[#fb730b] w-[135px] h-[135px] mx-auto -mt-20 items-center justify-center"
         >
-          <Image source={images.profile} className="w-40 h-40 rounded-full" />
+          <Image source={images.profile} className="w-36 h-36 rounded-full" />
         </View>
 
         {/* Name & Role */}
-        <Text className="text-gray-800 text-2xl font-bold text-center mt-3">
+        <Text className="text-gray-700 text-2xl font-bold text-center mt-3">
           MD. SHOUROV HASAN
         </Text>
         <Text className="text-gray-500 text-lg text-center mb-5">
@@ -48,7 +48,7 @@ const profile = () => {
             shadowRadius: 6,
             elevation: 6,
           }}
-          className="bg-blue-50 p-4 rounded-2xl my-6 "
+          className="bg-blue-50 p-4 rounded-2xl mb-2"
         >
           <View className="flex-row items-center mb-2">
             <Ionicons name="call" size={25} color="#eb5e0f" />
@@ -98,7 +98,7 @@ const profile = () => {
         </View>
 
         {/* Social Icons */}
-        <View className="flex-row justify-center gap-3 mt-2">
+        <View className="flex-row justify-center gap-2 ">
           {[
             {
               href: "https://www.facebook.com/shourovhasan171/",
@@ -128,7 +128,7 @@ const profile = () => {
 
         {/* Contact Button */}
         <TouchableOpacity
-          className="mt-10 bg-blue-50 px-6 py-5 rounded-full items-center"
+          className="mt-5 bg-blue-50 px-4 py-3 mx-6 rounded-full items-center"
           style={{
             shadowColor: "#fb730b",
             shadowOffset: { width: 6, height: 6 },
@@ -141,7 +141,7 @@ const profile = () => {
             href="https://wa.me/8801303754647?text=Hello%20Shourov.%20I%20am%20interested%20in%20your%20work.%20Can%20you%20please%20share%20more%20about%20your%20services.%20Thanks!
 "
           >
-            <Text className="text-[#eb5e0f] font-bold text-xl">Contact Me</Text>
+            <Text className="text-[#eb5e0f] font-bold text-md">Contact Me</Text>
           </Link>
         </TouchableOpacity>
       </View>

@@ -57,20 +57,20 @@ const search = () => {
               {/* Banner */}
               <Image
                 source={images.cinemaster}
-                className="w-full h-32 mt-5 mb-5 mx-auto"
+                className="w-full h-32 mt-10 mb-5 mx-auto"
                 resizeMode="contain"
               />
 
-              <View className="my-5">
+              <View className="mb-5">
                 <SearchBar
-                  placeholder="Type to Search movies..."
+                  placeholder="Search movies..."
                   value={searchQuery}
                   onChangeText={(text: string) => setSearchQuery(text)}
                   // onPress={() => router.push("/search")}
                 />
               </View>
 
-              <Text className="text-xl font-bold text-white  mb-3">
+              <Text className="text-xl font-bold px-2 text-white  mb-3">
                 📝 Search Movies
               </Text>
 
